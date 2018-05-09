@@ -1,5 +1,5 @@
 # Solpex
-Protein solubility predictor
+Protein solubility predictor.
 
 # Installation
 
@@ -15,13 +15,13 @@ Protein solubility predictor
 	2. TMHMM: http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm
 	3. Fess: http://protein.bio.unipd.it/download/
 	4. Espritz: http://protein.bio.unipd.it/download/
-- Change paths in class Paths located in file solpex.py or set them by arguments see --help
-   defualt paths:
-        _USEARCH = './additional_software/usearch/usearch10.0.240_i86linux32'  
-	    _PDB_ECOLI_FA = './data/Ecoli_xray_nmr_pdb_no_nesg.fa'  
-		_TMHMM = './additional_software/tmhmm-2.0c.Linux/tmhmm-2.0c/bin/tmhmm'  
-		_ESPRITZ = './additional_software/espritz/espritz.pl'  
-		_FESS = './additional_software/fess/fess'
+- Change paths in class Paths located in file solpex.py or set them by arguments see --help defualt paths:
+   
+    _USEARCH = './additional_software/usearch/usearch10.0.240_i86linux32'  
+	_PDB_ECOLI_FA = './data/Ecoli_xray_nmr_pdb_no_nesg.fa'  
+    _TMHMM = './additional_software/tmhmm-2.0c.Linux/tmhmm-2.0c/bin/tmhmm'  
+	_ESPRITZ = './additional_software/espritz/espritz.pl'  
+	_FESS = './additional_software/fess/fess'
 
 # Run
 
