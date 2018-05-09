@@ -18,7 +18,6 @@ Protein solubility predictor.
 - Change paths in class Paths located in file solpex.py or set them by arguments see solpex.py --help, default paths:
    
     _USEARCH = './additional_software/usearch/usearch10.0.240_i86linux32'  
-	_PDB_ECOLI_FA = './data/Ecoli_xray_nmr_pdb_no_nesg.fa'  
     _TMHMM = './additional_software/tmhmm-2.0c.Linux/tmhmm-2.0c/bin/tmhmm'  
 	_ESPRITZ = './additional_software/espritz/espritz.pl'  
 	_FESS = './additional_software/fess/fess'
