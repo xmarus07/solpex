@@ -1,0 +1,65 @@
+name: solpex
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - biopython=1.71=py36h637b7d7_0
+  - intel-openmp=2018.0.0=8
+  - libgfortran-ng=7.2.0=hdf63c60_3
+  - mkl=2018.0.2=1
+  - mkl_fft=1.0.1=py36h3010b51_0
+  - mkl_random=1.0.1=py36h629b387_0
+  - blas=1.1=openblas
+  - ca-certificates=2018.4.16=0
+  - certifi=2018.4.16=py36_0
+  - numpy=1.14.3=py36_blas_openblas_200
+  - openblas=0.2.20=7
+  - openssl=1.0.2o=0
+  - pandas=0.22.0=py36_1
+  - python-dateutil=2.7.2=py_0
+  - pytz=2018.4=py_0
+  - scikit-learn=0.19.1=py36_blas_openblas_201
+  - scipy=1.1.0=py36_blas_openblas_200
+  - six=1.11.0=py36_1
+  - tqdm=4.23.3=py_0
+  - libedit=3.1=heed3624_0
+  - libffi=3.2.1=hd88cf55_4
+  - libgcc-ng=7.2.0=hdf63c60_3
+  - libgfortran=3.0.0=1
+  - libstdcxx-ng=7.2.0=hdf63c60_3
+  - ncurses=6.0=h9df7e31_2
+  - pip=10.0.1=py36_0
+  - python=3.6.5=hc3d631a_2
+  - readline=7.0=ha6073c6_4
+  - setuptools=39.1.0=py36_0
+  - sqlite=3.23.1=he433501_0
+  - tk=8.6.7=hc745277_3
+  - wheel=0.31.0=py36_0
+  - xz=5.2.3=h5e939de_4
+  - zlib=1.2.11=ha838bed_2
+  - pip:
+    - bleach==1.5.0
+    - html5lib==0.9999999
+    - ipython-genutils==0.2.0
+    - jsonschema==2.6.0
+    - jupyter-core==4.4.0
+    - lasagne==0.2.dev1
+    - markdown==2.6.9
+    - mechanicalsoup==0.7.0
+    - nbformat==4.4.0
+    - plotly==2.4.1
+    - pydot==1.2.4
+    - pyqt5==5.10.1
+    - pyyaml==3.12
+    - quantiprot==0.2.3
+    - scikit-neuralnetwork==0.7
+    - selenium==3.4.3
+    - sip==4.19.8
+    - sklearn==0.0
+    - tensorflow==1.3.0
+    - tensorflow-tensorboard==0.1.8
+    - traitlets==4.3.2
+    - werkzeug==0.12.2
+prefix: /home/mmarusiak/anaconda3/envs/solpex
+
